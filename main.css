@@ -107,7 +107,7 @@ body {
 
 #cookie-warn {
     position: fixed;
-    bottom:20%;
+    bottom: 20%;
     background: url('img/cookies2.jpg') no-repeat center;
     background-size: cover;
     padding: 2%;
@@ -150,6 +150,7 @@ body {
     transition: ease 1s;
 
 }
+
 .navbar.expanded {
     padding: 1.3rem 1rem;
     transition: ease 1s;
@@ -180,6 +181,7 @@ body {
 #link.nav-link.active {
     color: #00753F;
 }
+
 #link.nav-link {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
@@ -188,9 +190,11 @@ body {
     transition: color 0.5s ease;
     color: #FC7700;
 }
+
 #link.nav-link:hover {
     color: #00753F;
 }
+
 .lang-button {
     margin-left: 1rem;
     cursor: pointer;
@@ -301,7 +305,6 @@ body {
 .contact .font-special {
     font-size: 3rem;
 }
-
 
 .form-group input, .form-group textarea {
     border-radius: 0;
@@ -573,7 +576,6 @@ a.phone-action:hover {
         padding: 0.2rem;
     }
 
-
 }
 
 /*********************************************************************************/
@@ -609,7 +611,6 @@ a.phone-action:hover {
         width: 270px;
         height: 270px;
     }
-
 
     .about-card-footer img.about-icons2:hover {
         width: 2.5rem;
@@ -671,7 +672,6 @@ a.phone-action:hover {
         height: 450px;
     }
 
-
     .about-card-title {
         font-size: 3rem;
     }
@@ -680,7 +680,6 @@ a.phone-action:hover {
         font-size: 1.5rem;
         padding-top: 1.2rem;
     }
-
 
     .about-icons2 {
         width: 4rem;
@@ -1093,9 +1092,10 @@ a.phone-action:hover {
         float: left;
         font-size: 1rem;
         margin-right: 1rem;
-        margin-bottom:0.7rem;
+        margin-bottom: 0.7rem;
         color: #EFF0F0;
     }
+
     #cookie-warn p {
         font-size: 1rem;
     }
@@ -1145,7 +1145,7 @@ a.phone-action:hover {
         float: left;
         font-size: 0.8rem;
         margin-right: 1rem;
-        margin-bottom:0.7rem;
+        margin-bottom: 0.7rem;
         color: #EFF0F0;
     }
 
@@ -1297,7 +1297,7 @@ a.phone-action:hover {
         float: left;
         font-size: 0.8rem;
         margin-right: 1rem;
-        margin-bottom:0.7rem;
+        margin-bottom: 0.7rem;
         color: #EFF0F0;
     }
 
@@ -1466,7 +1466,7 @@ a.phone-action:hover {
         float: left;
         font-size: 0.8rem;
         margin-right: 1rem;
-        margin-bottom:0.7rem;
+        margin-bottom: 0.7rem;
         color: #EFF0F0;
     }
 

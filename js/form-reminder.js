@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
     function nameReminder() {
         if ($('.form-name')[0].value === '') {
@@ -7,6 +7,7 @@
             $('.form-reminder-name').hide();
         }
     }
+
     function mailReminder() {
         if ($('.form-mail')[0].value === '') {
             $('.form-reminder-mail').show();
@@ -14,6 +15,7 @@
             $('.form-reminder-mail').hide();
         }
     }
+
     function reminderHide() {
         $('.form-reminder-name').hide();
         $('.form-reminder-mail').hide();

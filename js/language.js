@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const $langButton = $('div.lang-button');
     const $translationsText = $('[data-lang]');
     const $translationsFormPlaceholder = $('[data-langplaceholder]');
@@ -7,17 +7,17 @@
 
     function languageSwitch() {
 
-        $translationsText.each(function() {
+        $translationsText.each(function () {
             prevLang = $(this).html();
             $(this).html($(this).attr('data-lang'));
             $(this).attr('data-lang', prevLang)
         })
-        $translationsFormPlaceholder.each(function() {
+        $translationsFormPlaceholder.each(function () {
             prevLang = $(this).attr('placeholder');
             $(this).attr('placeholder', ($(this).attr('data-langplaceholder')));
             $(this).attr('data-langplaceholder', prevLang)
         })
-        $translationsFormTitle.each(function() {
+        $translationsFormTitle.each(function () {
             prevLang = $(this).attr('title');
             $(this).attr('title', ($(this).attr('data-langtitle')));
             $(this).attr('data-langtitle', prevLang)
@@ -38,4 +38,4 @@
         localStorage.setItem('language', 'english');
     }
 
-}) ();
+})();
